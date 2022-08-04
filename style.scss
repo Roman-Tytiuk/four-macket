@@ -70,7 +70,7 @@ html body{
                 color: #787878;
             }
         .button:hover{
-            background-color: #2819b6;
+            background-color: #21639c;
         }
         .button{
             background-color: #337ab7;
@@ -101,10 +101,12 @@ html body{
         .left{
             width: 50%;
         .course{
+            font-family: "Open Sans";
             margin-top: 215px;
             margin-bottom: 25px;
             text-align: center;
-            font-size: 25px;
+            font-weight: 600;
+            word-spacing: 4px;
             color: #333333;}
         .text{
             font-family: "Open Sans" regular;
@@ -173,6 +175,8 @@ html body{
                 #feed form label{
                     margin-bottom: 7px;}
             #feed form h2 {
+                font-weight: 600;
+                word-spacing: 4px;
                 margin-top: -30px;
                 color: #333333;
                 font-size: 23px; 
@@ -201,12 +205,6 @@ html body{
         text-align: center;
         margin-top: 20px;
     }
-    .build_title h2{
-        font-family: 'Open Sans', "Light 300";
-        font-weight: 400;
-        font-size: 30px;
-        color: #333333;
-    }
     .build_content{
         display: flex;
         align-items: center;
@@ -225,7 +223,7 @@ html body{
         .icon1 h2{
             font-family: 'Open Sans', "Light 300";
             font-weight: 400;
-            color: #787878;
+            color: #333333;
             font-size: 22px;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -252,7 +250,7 @@ html body{
         .icon2 h2{
             font-family: 'Open Sans', "Light 300";
             font-weight: 400;
-            color: #787878;
+            color: #333333;
             font-size: 22px;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -278,7 +276,7 @@ html body{
         .icon3 h2{
             font-family: 'Open Sans', "Light 300";
             font-weight: 400;
-            color: #787878;
+            color: #333333;
             font-size: 22px;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -357,13 +355,11 @@ html body{
     }
 .slider_container{
     width: 100%;
-    background-color: #337ab7;
+    height: max-content;
 }
 .slider_content{
     margin: 0 auto;
     width: 1120px;
-    height: 530px;
-    background-color: red;
 }
 .slider__item {
     width: 100%;
@@ -439,7 +435,7 @@ html body{
             text-align: center;
             margin-bottom: 0;
             color: #787878;
-            font-family: "Open Sans" regular;
+            font-family: "Open Sans";
             font-size: 16px;
         }
         .video{
