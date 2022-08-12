@@ -287,8 +287,6 @@ header .header2 {
 .main .main_container {
   margin: 0 auto;
   width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
   padding-top: 90px;
   background-color: #f8f8f8;
@@ -355,10 +353,7 @@ header .header2 {
 .main .main_container .main_content .custom-checkbox + label {
   display: inline-flex;
   align-items: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 .main .main_container .main_content .custom-checkbox + label::before {
   content: "";
@@ -384,12 +379,6 @@ header .header2 {
 }
 .main .main_container .main_content .custom-checkbox:disabled + label::before {
   background-color: #e9ecef;
-}
-.main .main_container .main_content #feed form input::-moz-placeholder {
-  color: #787878;
-}
-.main .main_container .main_content #feed form input:-ms-input-placeholder {
-  color: #787878;
 }
 .main .main_container .main_content #feed form input::placeholder {
   color: #787878;
@@ -589,8 +578,6 @@ header .header2 {
 
 .slider_container {
   width: 100%;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
 }
 
@@ -748,4 +735,4 @@ html body{
         width: 100%;
     }
 
-}*//*# sourceMappingURL=style.css.map */
+}*/
