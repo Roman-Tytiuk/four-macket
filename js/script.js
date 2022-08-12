@@ -8,7 +8,25 @@ $(document).ready(function(){
 		speed:1000,
 		autoplaySpeed:9000
 	});
-	console.log('Loh');
+});
+
+$(document).ready(function(){
+		$('#mobile-slider').slick({
+			dots: true,
+			arrows: false,
+			infinite: true,
+			slidesToShow: 1,
+			autoplay:true,
+			speed: 1000,
+			autoplaySpeed: 9000,
+			mobileFirst: true,
+			responsive: [
+				{
+					breakpoint: 768,
+					settings: 'unslick'
+				}
+				]
+		});
 });
 
 
